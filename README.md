@@ -10,7 +10,7 @@ Este site foi criado como um portfólio simples e objetivo, com foco em clareza 
 
 - Navegação interna com rolagem suave entre as seções.
 - Header fixo que some ao descer a página e reaparece ao subir.
-- AnimaçÕes de entrada dos blocos conforme o scroll.
+- Animações de entrada dos blocos conforme o scroll.
 - Layout responsivo para desktop e dispositivos moveis.
 - Links para GitHub, LinkedIn, WhatsApp e e-mail.
 
