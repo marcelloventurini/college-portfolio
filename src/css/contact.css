@@ -1,0 +1,109 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 5rem;
+  padding-top: 5.625rem;
+  max-width: 1600px;
+}
+
+.contact h2 {
+  text-transform: uppercase;
+  font-size: 9rem;
+  line-height: 7.5rem;
+  padding-bottom: 3.75rem;
+}
+
+.contact p {
+  max-width: 34ch;
+  padding-bottom: 3.75rem;
+}
+
+.mail,
+.tel {
+  margin-bottom: 3.75rem;
+  place-self: start;
+}
+
+ul a {
+  gap: 0.31rem;
+}
+
+.social-mobile {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .contact h2 {
+    font-size: 6rem;
+    line-height: 4.5rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .contact {
+    align-items: center;
+    padding-top: 0;
+  }
+
+  .contact h2 {
+    padding-top: 3.75rem;
+    padding-bottom: 1.875rem;
+  }
+
+  .mail,
+  .tel {
+    place-self: center;
+    margin-bottom: 1.875rem;
+  }
+
+  .contact p {
+    text-align: center;
+    padding-bottom: 1.875rem;
+  }
+
+  ul li {
+    text-align: center;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    padding-top: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact h2 {
+    font-size: 4.5rem;
+    line-height: 3.5rem;
+  }
+
+  .mail,
+  .tel {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .list {
+    display: none;
+  }
+
+  .social-mobile {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .contact h2 {
+    font-size: 3.3rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .contact {
+    padding: 0 2rem;
+  }
+}

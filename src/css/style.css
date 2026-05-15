@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+
+@import "global.css";
+@import "header.css";
+@import "intro.css";
+@import "info.css";
+@import "arrow.css";
+@import "projects.css";
+@import "degree.css";
+@import "contact.css";
+@import "footer.css";
